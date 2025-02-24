@@ -15,6 +15,7 @@ public class runnerup {
        int C = scn.nextInt();
 
        System.out.println("Second largest number IS : ");
+       
        if(A > B && A > C){
          if(B > C){
             System.out.println(B);
@@ -32,6 +33,6 @@ public class runnerup {
        }else{
          System.out.println(B);
        }
-    
+
    } 
 }

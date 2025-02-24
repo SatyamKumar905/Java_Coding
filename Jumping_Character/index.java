@@ -7,7 +7,7 @@ public class index {
 
         System.out.println("Enter the Character number : ");
         char ch = scn.next().charAt(0);
-        
+
         if(ch >= 'a' && ch <= 'w'){
             System.out.println((char)(ch + 3));
         }else if(ch >= 'D' && ch <= 'Z'){
